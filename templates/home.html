@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Bahram | Home</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <div>
+                {% load static %}
+                <a href="/"><img src="{% static 'image/logo.svg' %}" alt="Bahram"></a>
+            </div>
+            <ul>
+                <li><a href="">Popular</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Reading List</a></li>
+                <li><a href="">Topics</a></li>
+                <li><a href="">Subscribe</a></li>
+            </ul>
+            <a href="#">
+                {% load static %}
+                <img src="{% static 'image/search.svg' %}   " alt="Search">
+            </a>
+        </nav>
+    </header>
+    <section class="container">
+        {% block content %}
+        {% endblock content %}
+        Home page
+    </section>
+    <footer class="container">
+        <div>
+            {% load static %}
+            <a href="/"><img src="{% static 'image/logo.svg' %}" alt="Bahram"></a>
+        </div>
+        <p>All Rights Reserved 2018 3layers</p>
+    </footer>
+</body>
+
+</html>
