@@ -1,5 +1,4 @@
-📝 # Blog-content
-📌 Project haqida
+# Blog-content
 
 Bu loyiha — shaxsiy Blog platforma bo‘lib, unda foydali maqolalar, texnologiya yangiliklari va shaxsiy tajribalar joylab boriladi. Loyiha soddalik, tezlik va qulaylik tamoyillari asosida ishlab chiqilgan.
 
